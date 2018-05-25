@@ -1,0 +1,19 @@
+disp('x^5 + x - 1');
+x1 = input('?????');
+x2 = input('?????');
+e = 10^(-7);
+f1 = myfunction_1(x1);
+f2 = myfunction_1(x2);
+y = dichotomyRoot_1(x1, x2, e);
+disp('root=');
+disp(y);
+
+disp('sin(x)-6*x-5');
+x1 = input('?????');
+x2 = input('?????');
+e = 10^(-7);
+f1 = myfunction_1(x1);
+f2 = myfunction_1(x2);
+y = dichotomyRoot(x1, x2, e);
+disp('root=');
+disp(y);
